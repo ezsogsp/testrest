@@ -1,7 +1,7 @@
 FROM python:3
 
-WORKDIR /usr/testrest/src
+COPY src /usr/testrest/src
 
-COPY src /usr/testrest
+WORKDIR /usr/testrest/src
 
 CMD [ "python", "./testrest.py" ]
