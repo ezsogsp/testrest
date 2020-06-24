@@ -4,4 +4,4 @@ WORKDIR /usr/testrest/src
 
 COPY src /usr/testrest
 
-CMD [ "python", "./test.py" ]
+CMD [ "python", "./testrest.py" ]
