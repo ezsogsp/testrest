@@ -6,3 +6,9 @@ app = Flask(__name__)
 
 # source file for testrest project
 print("This is the first own project!")
+
+@app.route('/')
+def hello_world():
+    return 'This is the first Flask project!'
+
+app.run(host='localhost', port=80, debug=True)
