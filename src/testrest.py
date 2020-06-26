@@ -11,4 +11,4 @@ print("This is the first own project!")
 def hello_world():
     return 'This is the first Flask project!'
 
-app.run(host='localhost', port=80, debug=True)
+app.run(host='0.0.0.0', port=80, debug=True)
